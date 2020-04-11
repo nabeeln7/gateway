@@ -4,9 +4,9 @@ var events = require('events');
 var url    = require('url');
 var util   = require('util');
 
-var noble                  = require('noble');
+var noble                  = require('@abandonware/noble');
 var request                = require('request');
-var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
+var EddystoneBeaconScanner = require('@abandonware/eddystone-beacon-scanner');
 var urlExpander            = require('expand-url');
 var _                      = require('lodash');
 var debug                  = require('debug')('ble-gateway');

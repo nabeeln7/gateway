@@ -11,7 +11,7 @@
 // any master's ability to see services provided by a bleno app.
 process.env.NOBLE_MULTI_ROLE = 1;
 
-var BleGateway    = require('ble-gateway');
+var BleGateway    = require('@nabeeln7/ble-gateway');
 var GatewayTopics = require('gateway-topics');
 
 var mqtt  = require('mqtt');
