@@ -1,6 +1,6 @@
 {
   "name": "@nabeeln7/ble-gateway",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "lab11's ble-gateway module with @abandonware/noble instead of noble.",
   "main": "ble-gateway.js",
   "scripts": {
